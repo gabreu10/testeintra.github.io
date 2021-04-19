@@ -1,0 +1,344 @@
+* {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+        
+#circle-orbit-container {
+    position: relative;
+    height: 888px;
+    width: 100%;
+}
+
+#text-1 {
+    position: absolute;
+    top: 330px;
+    left: 80px;
+}
+
+#text-2 {
+    position: absolute;
+    top: 315px;
+    left: 335px;
+}
+
+#text-3 {
+    position: absolute;
+    top: 390px;
+    left: 315px;
+}
+
+#text-4 {
+    position: absolute;
+    top: 355px;
+    left: 460px;
+}
+
+#text-5 {
+    position: absolute;
+    top: 445px;
+    left: 440px;
+}
+
+#text-6 {
+    position: absolute;
+    top: 590px;
+    left: 230px;
+}
+
+#text-7 {
+    position: absolute;
+    top: 680px;
+    left: 255px;
+}
+
+#text-8 {
+    position: absolute;
+    top: 655px;
+    left: 490px;
+}
+
+#text-9 {
+    position: absolute;
+    top: 740px;
+    left: 795px;
+}
+
+#text-10 {
+    position: absolute;
+    top: 700px;
+    left: 900px;
+}
+            
+#text-11 {
+    position: absolute;
+    top: 860px;
+    left: 820px;
+}
+
+#text-12 {
+    position: absolute;
+    top: 810px;
+    left: 935px;
+}
+
+#text-13 {
+    position: absolute;
+    top: 476px;
+    right: 495px;
+}
+
+#text-14 {
+    position: absolute;
+    top: 350px;
+    right: 360px;
+}
+
+#text-15 {
+    position: absolute;
+    top: 445px;
+    right: 220px;
+}
+
+#text-16 {
+    position: absolute;
+    top: 375px;
+    right: 135px;
+}
+
+/* ---------- Inner orbit - This is the circles closest to the central point ---------- */
+#inner-orbit {
+    position: absolute;
+    top: 279px;
+    left: 519px;
+    width: 403px;
+    height: 406px;
+    border: 0.5px #000 solid;
+    border-radius: 100%;
+    /*-webkit-animation: spin-right 50s linear infinite;
+    animation: spin-right 50s linear infinite;*/
+    
+    font-size: 30px;
+}
+
+#inner-text-one {
+    position: absolute;
+    top: 175px;
+    left: 110px;
+}
+
+#inner-text-two {
+    position: absolute;
+    top: 205px;
+    left: 85px;
+}
+
+/* ---------- Repeating styles for the inner orbiting circles ---------- */
+/*.inner-orbit-cirlces {
+    position: absolute;
+    top: 62px;
+    left: -6px;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: #9F98E6;
+}*/
+
+/* ---------- Middle orbit - This is the circles second closest to the central point ---------- */
+.middle-orbit {
+    position: absolute;
+    top: 168px;
+    left: 407px;
+    width: 625px;
+    height: 628px;
+    border: 0.5px #000 solid;
+    border-radius: 100%;
+    -webkit-animation: spin-right 50s linear infinite;
+    animation: spin-right 50s linear infinite;
+}
+
+
+/* ---------- Repeating styles for the inner orbiting circles ---------- */
+#middle-orbit-cirlce-1 {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#middle-text-one {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+}
+
+#middle-text-two {
+    position: absolute;
+    top: 50px;
+    left: 37px;
+}
+
+
+#middle-orbit-cirlce-2 {
+    position: absolute;
+    top: 175px;
+    left: 2px;
+    /*transform: translateX(-50%);*/
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#middle-orbit-cirlce-3 {
+    position: absolute;
+    top: 260px;
+    left: -20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#middle-orbit-cirlce-4 {
+    position: absolute;
+    top: 205px;
+    right: -7px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#middle-orbit-cirlce-5 {
+    position: absolute;
+    top: 295px;
+    right: -22px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#middle-orbit-cirlce-6 {
+    position: absolute;
+    top: 475px;
+    left: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#middle-orbit-cirlce-7 {
+    position: absolute;
+    top: 540px;
+    left: 120px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#middle-text-three {
+    position: absolute;
+    top: 40px;
+    left: 22px;
+}
+
+#middle-orbit-cirlce-8 {
+    position: absolute;
+    top: 595px;
+    left: 390px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+/* ---------- Outer orbit - This is the circles furthest away from the central point ---------- */
+.outer-orbit {
+    position: absolute;
+    top: 38px;
+    left: 278px;
+    width: 888px;
+    height: 885px;
+    border: 0.5px #000 solid;
+    border-radius: 100%;
+    -webkit-animation: spin-right 50s linear infinite;
+    animation: spin-right 50s linear infinite;
+}
+
+/* ---------- Repeating styles for the outer orbiting circles ---------- */
+#outer-orbit-cirlces-1 {
+    position: absolute;
+    top: 265px;
+    left: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#outer-orbit-cirlces-2 {
+    position: absolute;
+    top: 335px;
+    left: -12px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#outer-orbit-cirlces-3 {
+    position: absolute;
+    top: 625px;
+    left: 28px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#outer-orbit-cirlces-4 {
+    position: absolute;
+    top: 845px;
+    right: 300px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#outer-orbit-cirlces-5 {
+    position: absolute;
+    top: 800px;
+    right: 190px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+#outer-orbit-cirlces-6 {
+    position: absolute;
+    top: 395px;
+    right: -22px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #6BE483;
+}
+
+/* ---------- Animation ---------- */
+@-webkit-keyframes spin-right {
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }            
