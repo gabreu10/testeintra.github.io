@@ -5,7 +5,7 @@
         
 #circle-orbit-container {
     position: relative;
-    height: 888px;
+    height: 444px;
     width: 100%;
 }
 
@@ -108,10 +108,10 @@
 /* ---------- Inner orbit - This is the circles closest to the central point ---------- */
 #inner-orbit {
     position: absolute;
-    top: 279px;
-    left: 519px;
-    width: 403px;
-    height: 406px;
+    top: 179px;
+    left: 419px;
+    width: 303px;
+    height: 306px;
     border: 0.5px #000 solid;
     border-radius: 100%;
     /*-webkit-animation: spin-right 50s linear infinite;
@@ -146,10 +146,10 @@
 /* ---------- Middle orbit - This is the circles second closest to the central point ---------- */
 .middle-orbit {
     position: absolute;
-    top: 168px;
-    left: 407px;
-    width: 625px;
-    height: 628px;
+    top: 68px;
+    left: 307px;
+    width: 525px;
+    height: 528px;
     border: 0.5px #000 solid;
     border-radius: 100%;
     -webkit-animation: spin-right 50s linear infinite;
@@ -184,7 +184,7 @@
 
 #middle-orbit-cirlce-2 {
     position: absolute;
-    top: 175px;
+    top: 75px;
     left: 2px;
     /*transform: translateX(-50%);*/
     height: 40px;
@@ -195,7 +195,7 @@
 
 #middle-orbit-cirlce-3 {
     position: absolute;
-    top: 260px;
+    top: 160px;
     left: -20px;
     height: 40px;
     width: 40px;
@@ -205,7 +205,7 @@
 
 #middle-orbit-cirlce-4 {
     position: absolute;
-    top: 205px;
+    top: 105px;
     right: -7px;
     height: 40px;
     width: 40px;
@@ -215,7 +215,7 @@
 
 #middle-orbit-cirlce-5 {
     position: absolute;
-    top: 295px;
+    top: 195px;
     right: -22px;
     height: 40px;
     width: 40px;
@@ -225,7 +225,7 @@
 
 #middle-orbit-cirlce-6 {
     position: absolute;
-    top: 475px;
+    top: 375px;
     left: 30px;
     height: 40px;
     width: 40px;
@@ -235,7 +235,7 @@
 
 #middle-orbit-cirlce-7 {
     position: absolute;
-    top: 540px;
+    top: 440px;
     left: 120px;
     height: 100px;
     width: 100px;
@@ -251,7 +251,7 @@
 
 #middle-orbit-cirlce-8 {
     position: absolute;
-    top: 595px;
+    top: 495px;
     left: 390px;
     height: 40px;
     width: 40px;
@@ -275,7 +275,7 @@
 /* ---------- Repeating styles for the outer orbiting circles ---------- */
 #outer-orbit-cirlces-1 {
     position: absolute;
-    top: 265px;
+    top: 165px;
     left: 8px;
     height: 40px;
     width: 40px;
@@ -285,7 +285,7 @@
 
 #outer-orbit-cirlces-2 {
     position: absolute;
-    top: 335px;
+    top: 235px;
     left: -12px;
     height: 40px;
     width: 40px;
@@ -295,7 +295,7 @@
 
 #outer-orbit-cirlces-3 {
     position: absolute;
-    top: 625px;
+    top: 525px;
     left: 28px;
     height: 40px;
     width: 40px;
@@ -305,8 +305,8 @@
 
 #outer-orbit-cirlces-4 {
     position: absolute;
-    top: 845px;
-    right: 300px;
+    top: 745px;
+    right: 200px;
     height: 40px;
     width: 40px;
     border-radius: 100%;
@@ -315,7 +315,7 @@
 
 #outer-orbit-cirlces-5 {
     position: absolute;
-    top: 800px;
+    top: 700px;
     right: 190px;
     height: 40px;
     width: 40px;
@@ -325,7 +325,7 @@
 
 #outer-orbit-cirlces-6 {
     position: absolute;
-    top: 395px;
+    top: 295px;
     right: -22px;
     height: 40px;
     width: 40px;
