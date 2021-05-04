@@ -5,7 +5,7 @@
         
 #circle-orbit-container {
     position: relative;
-    height: 888px;
+    height: 444px;
     width: 100%;
 }
 
@@ -117,7 +117,7 @@
     /*-webkit-animation: spin-right 50s linear infinite;
     animation: spin-right 50s linear infinite;*/
     
-    font-size: 30px;
+    font-size: 18px;
 }
 
 #inner-text-one {
