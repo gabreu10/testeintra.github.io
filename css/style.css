@@ -12,104 +12,104 @@
 #text-1 {
     position: absolute;
     top: 225px;
-    left: 175px;
+    left: 25px;
 }
 
 #text-2 {
     position: absolute;
     top: 315px;
-    left: 305px;
+    left: 155px;
 }
 
 #text-3 {
     position: absolute;
     top: 390px;
-    left: 295px;
+    left: 139px;
 }
 
 #text-4 {
     position: absolute;
     top: 340px;
-    left: 430px;
+    left: 230px;
 }
 
 #text-5 {
     position: absolute;
     top: 445px;
-    left: 420px;
+    left: 220px;
 }
 
 #text-6 {
     position: absolute;
-    top: 590px;
-    left: 255px;
+    top: 645px;
+    left: 145px;
 }
 
 #text-7 {
     position: absolute;
     top: 680px;
-    left: 400px;
+    left: 270px;
 }
 
 #text-8 {
     position: absolute;
     top: 650px;
-    left: 590px;
+    left: 390px;
 }
 
 #text-9 {
     position: absolute;
     top: 610px;
-    left: 795px;
+    left: 595px;
 }
 
 #text-10 {
     position: absolute;
     top: 566px;
-    left: 850px;
+    left: 648px;
 }
             
 #text-11 {
     position: absolute;
-    top: 740px;
-    left: 820px;
+    top: 730px;
+    left: 520px;
 }
 
 #text-12 {
     position: absolute;
-    top: 660px;
-    left: 930px;
+    top: 670px;
+    left: 655px;
 }
 
 #text-13 {
     position: absolute;
     top: 476px;
-    right: 509px;
+    right: 709px;
 }
 
 #text-14 {
     position: absolute;
     top: 350px;
-    right: 508px;
+    right: 708px;
 }
 
 #text-15 {
     position: absolute;
     top: 445px;
-    right: 365px;
+    right: 619px;
 }
 
 #text-16 {
     position: absolute;
     top: 375px;
-    right: 235px;
+    right: 509px;
 }
 
 /* ---------- Inner orbit - This is the circles closest to the central point ---------- */
 #inner-orbit {
     position: absolute;
     top: 279px;
-    left: 519px;
+    left: 319px;
     width: 303px;
     height: 306px;
     border: 0.1px #000 solid;
@@ -147,7 +147,7 @@
 .middle-orbit {
     position: absolute;
     top: 168px;
-    left: 407px;
+    left: 207px;
     width: 525px;
     height: 528px;
     border: 0.3px #000 solid;
@@ -225,7 +225,7 @@
 
 #middle-orbit-cirlce-6 {
     position: absolute;
-    top: 585px;
+    top: 415px;
     left: 45px;
     height: 30px;
     width: 30px;
@@ -262,10 +262,10 @@
 /* ---------- Outer orbit - This is the circles furthest away from the central point ---------- */
 .outer-orbit {
     position: absolute;
-    top: 38px;
-    left: 278px;
-    width: 788px;
-    height: 785px;
+    top: 89px;
+    left: 125px;
+    width: 688px;
+    height: 685px;
     border: 0.5px #000 solid;
     border-radius: 100%;
     -webkit-animation: spin-right 50s linear infinite;
@@ -276,7 +276,7 @@
 #outer-orbit-cirlces-1 {
     position: absolute;
     top: 265px;
-    left: 2px;
+    left: -7px;
     height: 30px;
     width: 30px;
     border-radius: 100%;
@@ -295,8 +295,8 @@
 
 #outer-orbit-cirlces-3 {
     position: absolute;
-    top: 565px;
-    left: 28px;
+    top: 535px;
+    left: 55px;
     height: 30px;
     width: 30px;
     border-radius: 100%;
@@ -305,8 +305,8 @@
 
 #outer-orbit-cirlces-4 {
     position: absolute;
-    top: 632px;
-    right: 300px;
+    top: 668px;
+    right: 275px;
     height: 30px;
     width: 30px;
     border-radius: 100%;
@@ -315,7 +315,7 @@
 
 #outer-orbit-cirlces-5 {
     position: absolute;
-    top: 723px;
+    top: 641px;
     right: 190px;
     height: 30px;
     width: 30px;
@@ -325,7 +325,7 @@
 
 #outer-orbit-cirlces-6 {
     position: absolute;
-    top: 385px;
+    top: 285px;
     right: -14px;
     height: 30px;
     width: 30px;
