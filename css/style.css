@@ -11,8 +11,8 @@
 
 #text-1 {
     position: absolute;
-    top: 330px;
-    left: 80px;
+    top: 225px;
+    left: 175px;
 }
 
 #text-2 {
@@ -29,7 +29,7 @@
 
 #text-4 {
     position: absolute;
-    top: 355px;
+    top: 340px;
     left: 460px;
 }
 
@@ -48,7 +48,7 @@
 #text-7 {
     position: absolute;
     top: 680px;
-    left: 255px;
+    left: 350px;
 }
 
 #text-8 {
@@ -84,19 +84,19 @@
 #text-13 {
     position: absolute;
     top: 476px;
-    right: 495px;
+    right: 400px;
 }
 
 #text-14 {
     position: absolute;
     top: 350px;
-    right: 360px;
+    right: 425px;
 }
 
 #text-15 {
     position: absolute;
     top: 445px;
-    right: 220px;
+    right: 265px;
 }
 
 #text-16 {
@@ -112,24 +112,24 @@
     left: 519px;
     width: 403px;
     height: 406px;
-    border: 0.5px #000 solid;
+    border: 0.1px #000 solid;
     border-radius: 100%;
     /*-webkit-animation: spin-right 50s linear infinite;
     animation: spin-right 50s linear infinite;*/
     
-    font-size: 30px;
+    font-size: 18px;
 }
 
 #inner-text-one {
     position: absolute;
     top: 175px;
-    left: 110px;
+    left: 150px;
 }
 
 #inner-text-two {
     position: absolute;
     top: 205px;
-    left: 85px;
+    left: 136px;
 }
 
 /* ---------- Repeating styles for the inner orbiting circles ---------- */
