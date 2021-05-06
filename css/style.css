@@ -2,7 +2,6 @@
     font-family: 'IBM Plex Mono', monospace;
 }
 
-        
 #circle-orbit-container {
     position: relative;
     height: 333px;
@@ -84,25 +83,25 @@
 #text-13 {
     position: absolute;
     top: 476px;
-    right: 709px;
+    left: 655px;
 }
 
 #text-14 {
     position: absolute;
     top: 350px;
-    right: 708px;
+    left: 612px;
 }
 
 #text-15 {
     position: absolute;
     top: 445px;
-    right: 619px;
+    left: 689px;
 }
 
 #text-16 {
     position: absolute;
     top: 375px;
-    right: 509px;
+    left: 772px;
 }
 
 /* ---------- Inner orbit - This is the circles closest to the central point ---------- */
@@ -341,4 +340,5 @@
         -ms-transform: rotate(360deg);
         -o-transform: rotate(360deg);
         transform: rotate(360deg);
-    }            
+    }}
+            
